@@ -14,5 +14,5 @@
 
 
 
-!\[AWS 3-Tier Architecture](architecture/architecture-diagram.png)
+!\[AWS-3-Tier-Web-Application](architecture/architecture-diagram.png)
 
