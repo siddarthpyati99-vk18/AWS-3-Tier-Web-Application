@@ -88,7 +88,21 @@
 
 ## 📂 Repository Structure
 
-## 📚 Documentation
+## 📚 Project Documentation
+
+Detailed implementation commands used to build and test this project are available below.
+
+| # | Documentation | Description |
+|---|---|---|
+| 01 | [AWS CLI & SSM](docs/commands/01-aws-cli-and-ssm.md) | AWS CLI and EC2 Systems Manager |
+| 02 | [EC2 & Python Setup](docs/commands/02-ec2-python-setup.md) | EC2, Python, virtual environment and packages |
+| 03 | [Flask Application](docs/commands/03-flask-application.md) | Flask application configuration |
+| 04 | [RDS Connectivity](docs/commands/04-rds-connectivity.md) | Amazon RDS MySQL connectivity |
+| 05 | [Secrets Manager & IAM](docs/commands/05-secrets-manager-iam.md) | Secure database credentials and IAM |
+| 06 | [Gunicorn & systemd](docs/commands/06-gunicorn-systemd.md) | Production application service |
+| 07 | [Testing](docs/commands/07-testing.md) | Application and database testing |
+| 08 | [HA Failover](docs/commands/08-ha-failover.md) | High availability and failover testing |
+| 09 | [Cost Saving](docs/commands/09-cost-saving.md) | AWS resource cost optimization |
 
 ## 💰 Cost Optimization
 
