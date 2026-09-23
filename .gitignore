@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.aws/
+credentials
+*.pem
+*.key
+*.crt
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
