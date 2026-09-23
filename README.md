@@ -18,7 +18,7 @@
 
 # 
 
-# This project demonstrates how to design and deploy a highly available web application using AWS networking and compute services.
+# This project demonstrates how to design and deploy a highly available web application using AWS networking, compute, database, security, and monitoring services.
 
 # 
 
@@ -34,7 +34,7 @@
 
 # 
 
-# The two application servers are deployed across separate Availability Zones to improve availability and provide failover capability.
+# The two application servers are deployed across separate Availability Zones to provide redundancy and failover capability.
 
 # 
 
@@ -46,13 +46,53 @@
 
 # 
 
+# \### AWS 3-Tier Architecture Diagram
+
+# 
+
+# \*\*\[📐 Open Architecture Diagram](architecture/architecture-diagram.png)\*\*
+
+# 
+
 # !\[AWS 3-Tier Architecture](architecture/architecture-diagram.png)
 
+# 
 
+# \### Architecture Flow
 
+# 
 
+# ```text
 
+# &#x20;                        Internet
 
+# &#x20;                           |
 
+# &#x20;                           v
 
+# &#x20;               Application Load Balancer
+
+# &#x20;                           |
+
+# &#x20;                +----------+----------+
+
+# &#x20;                |                     |
+
+# &#x20;                v                     v
+
+# &#x20;         EC2 App Server 1      EC2 App Server 2
+
+# &#x20;         us-east-1a             us-east-1b
+
+# &#x20;                |                     |
+
+# &#x20;                +----------+----------+
+
+# &#x20;                           |
+
+# &#x20;                           v
+
+# &#x20;                   Amazon RDS MySQL
+
+# &#x20;                    Private Subnets
 
