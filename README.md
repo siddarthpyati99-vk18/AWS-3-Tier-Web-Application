@@ -24,49 +24,63 @@
 
 ## 🔄 High Availability Test
 
-## 📸 Project Screenshots
+# 📸 AWS Project Screenshots
 
-### VPC Configuration
-![VPC](screenshots/01-vpc.png)
+## VPC Configuration
 
-### Subnet Configuration
-![Subnets](screenshots/02-subnets.png)
+[![VPC Configuration](screenshots/01-vpc%20.png)](screenshots/01-vpc%20.png)
 
-### Route Tables
-![Route Tables](screenshots/03-route-tables.png)
+## Subnet Configuration
 
-### ALB Security Group
-![ALB SG](screenshots/04a-alb-security-group.png)
+[![Subnet Configuration](screenshots/02-subnets.png)](screenshots/02-subnets.png)
 
-### EC2 Security Group
-![EC2 SG](screenshots/04b-ec2-security-group.png)
+## Route Tables
 
-### RDS Security Group
-![RDS SG](screenshots/04c-rds-security-group.png)
+[![Route Tables](screenshots/03-route-tables.png)](screenshots/03-route-tables.png)
 
-### EC2 Instances
-![EC2](screenshots/05-ec2.png)
+## ALB Security Group
 
-### Application Load Balancer
-![ALB](screenshots/06-alb.png)
+[![ALB Security Group](screenshots/04a-alb-security-group.png)](screenshots/04a-alb-security-group.png)
 
-### Target Group
-![Target Group](screenshots/07-target-group.png)
+## EC2 Security Group
 
-### Amazon RDS
-![RDS](screenshots/08-rds.png)
+[![EC2 Security Group](screenshots/04b-ec2-security-group.png)](screenshots/04b-ec2-security-group.png)
 
-### AWS Secrets Manager
-![Secrets Manager](screenshots/09-secrets-manager.png)
+## RDS Security Group
 
-### CloudWatch
-![CloudWatch](screenshots/10-cloudwatch.png)
+[![RDS Security Group](screenshots/04c-rds-security-group.png)](screenshots/04c-rds-security-group.png)
 
-### Running Application
-![Application](screenshots/11-application.png)
+## EC2 Application Servers
 
-### HA Failover Test
-![HA Failover](screenshots/12-ha-failover.png)
+[![EC2 Application Servers](screenshots/05-ec2.png)](screenshots/05-ec2.png)
+
+## Application Load Balancer
+
+[![Application Load Balancer](screenshots/06-alb.png)](screenshots/06-alb.png)
+
+## Target Group
+
+[![Target Group](screenshots/07-target-group.png)](screenshots/07-target-group.png)
+
+## Amazon RDS MySQL
+
+[![Amazon RDS MySQL](screenshots/08-rds.png)](screenshots/08-rds.png)
+
+## AWS Secrets Manager
+
+[![AWS Secrets Manager](screenshots/09-secrets-manager.png)](screenshots/09-secrets-manager.png)
+
+## Amazon CloudWatch
+
+[![Amazon CloudWatch](screenshots/10-cloudwatch.png)](screenshots/10-cloudwatch.png)
+
+## Running Application
+
+[![Running Application](screenshots/11-application.png)](screenshots/11-application.png)
+
+## High Availability Failover
+
+[![High Availability Failover](screenshots/12-ha-failover.png)](screenshots/12-ha-failover.png)
 
 ## 🧪 Application Testing
 
